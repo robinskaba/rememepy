@@ -1,0 +1,20 @@
+[project]
+name = "rememepy"
+version = "0.1.1"
+description = "A tool to substitute the main image in memes with a different image."
+authors = [{name="Robin Škába", email="robin.skaba@gmail.com"}]
+license = "MIT"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "numpy>=2.3.0",
+    "pillow>=11.2.1",
+    "scipy>=1.15.3"
+]
+
+[project.urls]
+Homepage = "https://github.com/robinskaba/rememepy"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
