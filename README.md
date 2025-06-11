@@ -51,4 +51,4 @@ Rememepy is available on [PyPi](https://pypi.org/project/rememepy/):
 ```console
 $ python -m pip install rememepy
 ```
-Rememepy officially supports Python XX.
+Rememepy officially supports Python 3.10+.
