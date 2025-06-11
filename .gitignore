@@ -3,3 +3,8 @@
 dist/
 build/
 *.egg-info/
+.vscode/
+.tox/
+tox.ini
+tests/
+__pycache__/
