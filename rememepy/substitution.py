@@ -9,7 +9,7 @@ class Generator:
         self.last_template = None
 
     def substitute(self, source_img_path: str, substitute_img_path: str,
-                   dominant_cluster_amount: int = 3,
+                   dominant_cluster_amount: int = 6,
                    resize_to: tuple | None = None) -> Image.Image:
         """
         Replaces a region of the source image with a substitute image and returns the resulting image.
@@ -95,7 +95,7 @@ class Generator:
             self,
             source_img_path: str,
             substitute_img_path: str,
-            cluster_range: tuple = (0, 6)
+            cluster_range: tuple = (0, 10)
     ) -> Image.Image | None:
         """
         Attempts multiple substitutions using different dominant cluster amounts until a valid result is found.
